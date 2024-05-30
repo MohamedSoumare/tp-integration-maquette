@@ -1,5 +1,5 @@
 
-# Site web de Simplon Senegale
+# SITE WEB DE SIMPLON SÉNÉGAL
 
 Ce projet conciste à realiser un site web de l'application  Simplon Senegal, en utilisant HTML et CSS pour repondre au besion des 
 utilisateurs, conçu pour offrir aux patients une expérience conviviale.L'objectif est de reproduire la maquette de façon identitique.
