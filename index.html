@@ -236,87 +236,186 @@
                     <div class="dot"></div>
                     <div class="bar"></div>
                 </div>
-           
         </div>
     </section>
 
-    </section class="recruit">
-    <h1>Recrutement</h1>
-     <div class="container">
+    <section id="recruit">
+        <h1>Recrutement</h1>
+
+      <div class="container-recruit">
         <div class="left">
             <img src="images/groupe.jpg" alt="Team Photo" class="team-photo">
 
             <div class="job-offers">
                 <h2>Offres en cours</h2>
-                <div class="job-offer">
-
+                <div class="job-offer-content">
                     <div class="job-info">
                         <h3>Formateur référent</h3>
                         <p class="job-summary">Résumé du poste</p>
-                        <p>Unde temporibus amet est! Perferendis sapientae animis periores dicta maxime doloremque, ue pienteautofficia.</p>
+                        <p class="paragraph">Unde temporibus amet est! Perferendis sapienteanimisperiores dicta maxime doloremque, ue pienteautofficia</p>
                     </div>
-                    
-                    <div class="job-details">
-                        <ul>
-                            <li><i class="fas fa-file-alt"></i>CDD</li>
-                            <li><i class="fas fa-calendar-alt"></i> Plein temps</li>
-                            <li><i class="fas fa-map-marker-alt"></i> Dakar</li>
-                            <li><i class="fas fa-clock"></i> XX/XY/ZZ</li>
-                        </ul>
-                    </div>
-
+        
+                    <div class="job-contract">
+                        <div class="job-icon">
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <p>CDD</p>
+                        </div>
+                        <div class="job-icon">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Plein temps</p>
+                        </div>
+                        <div class="job-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Dakar</p>
+                        </div>
+                        <div class="job-icon">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>XX/XY/ZZ</p>
+                        </div>
+                    </div> 
+                    <div class="tiret"></div>
                 </div>
-
+                
                 <div class="apply-section">
                     <button class="apply-button">Postuler</button>
                 </div>
-                <div class="job-offer">
-                    <h3>Formateur référent</h3>
-                    <button class="expand-button">+</button>
+
+                <div class="job-add">
+                    <h3 class="job-format">Formateur référent</h3>
+                    <button class="add-boutton"><i class="fa-solid fa-plus"></i></button>
+              </div>
+                <div class="job-add">
+                    <h3 class="job-format">Formateur référent</h3>
+                    <button class="add-boutton"><i class="fa-solid fa-plus"></i></button>
                 </div>
-                <div class="job-offer">
-                    <h3>Formateur référent</h3>
-                    <button class="expand-button">+</button>
+                <div class="more-options">
+                    <a href="#">Afficher plus</a>
                 </div>
-            
             </div>
         </div>
         <div class="right">
 
-            <h2>Pourquoi nous rejoindre ?</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores 
-                laboriosam deleniti, culpa perspiciatis nemo quos illum? Inventore non 
-                totam ea, optio voluptates eveniet in sequi quasi dolorem molestiae saepe 
-                eaque, enim laudantium corrupti iure quisquam a amet reprehenderit 
-                atque fugiat?Inventore non totam ea, optio voluptates eveniet in sequi qu
-                eaque, enim laudantium corrupti iure quisquam a amet reprehenderit 
-                atque fugiat?Inventore non totam ea, optio voluptates eveniet in sequi qu</p>
-            <form>
+           
+        <h2>Pourquoi nous rejoindre ?</h2>
+        <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores laboriosam deleniti, culpa perspiciatis nemo quos illum? Inventore non totam ea, optio voluptates eveniet in sequi quasi dolorem molestiae saepe eaque, enim laudantium corrupti iure quisquam a amet reprehenderit atque fugiat? Inventore non totam ea, optio voluptates eveniet in sequi qu eaque, enim laudantium corrupti iure quisquam a amet reprehenderit atque fugiat? Inventore non totam ea, optio voluptates eveniet in sequi qu</p>
+        <form>
                 <div class="form-group">
-                    <input type="text" placeholder="Prénom *">
-                    <input type="text" placeholder="Nom *">
+                    <input type="text" id="prenom" name="prenom" placeholder="Prénom *" required>
+                    <input type="text" id="nom" name="nom" placeholder="Nom *" required>
                 </div>
                 <div class="form-group">
-                    <input type="tel" placeholder="Tel *">
-                    <input type="email" placeholder="Mail *">
+                    <input type="tel" id="tel" name="tel" placeholder="Tel *" required>
+                    <input type="email" id="mail" name="mail" placeholder="Mail *" required>
                 </div>
                 <div class="form-group">
-                    <input type="file" id="file-upload">
-                    <label for="file-upload">Joindre un fichier</label>
+                <!--<label for="file-upload" class="custom-file-upload">
+                    <input id="file-upload" type="file"/>
+                    <p class="file-label">Joindre un fichier</p>
+                </label> -->
+                   <div class="file-joint">
+                    
+                        <img class="file-upload" src="images/trombon.svg" alt="champ d'insertion du fichier">
+                        <label for="file">Joindre un fichier</label>
+                  </div>
+                    
                 </div>
-                <div class="form-group">
-                    <textarea placeholder="Message *"></textarea>
-                </div>
-                <div class="form-group">
-                    <input type="checkbox" id="terms">
-                    <label for="terms">I agree to terms et policy</label>
-                </div>
-                <button type="submit" class="submit-button">Rejoindre</button>
-            </form>
-        </div>
-    </div>
 
-    <section>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Message *" required></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">I apgree to terms et policy</label>
+                    </div>
+                </div>
+                <button class="btn-form" type="submit">Rejoindre</button>
+                <p class="required-fields">* These fields are required</p>
+         </form>
+    
+      </div>
+    </div>
+</section>
+    <section id="partanire">
+        <div class="container-patenaire">
+            <h1>Nos Partenaires</h1>
+            <div class="logos">
+                <div class="row">
+                    <img class="fond" src="images/Fondation.png" alt="Fondation la France s'engage">
+                    <img src="images/images.png" alt="Fondation Solidarité Société Générale">
+                    <img src="images/orange.png" alt="Orange">
+                    <img src="images/aviva.png" alt="Aviva">
+                    <img class="fond" src="images/union.png" alt="Union Européenne">
+                </div>
+                <div class="row">
+                    <img class="fond" src="images/Fondation.png" alt="Fondation la France s'engage">
+                    <img src="images/images.png" alt="Fondation Solidarité Société Générale">
+                    <img src="images/orange.png" alt="Orange">
+                    <img src="images/aviva.png" alt="Aviva">
+                    <img class="fond"  src="images/union.png" alt="Union Européenne">
+                </div>
+            </div>
+            <div class="dot-bar-container">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="contact">
+        <div class="logo-link">
+           <img class="logo" src="images/logo-simplon.png" alt="logo simplon">
+           <div>
+               <img class="tw" src="images/twitter.svg" alt="logo twitter">
+               <img src="images/facebook.svg" alt="logo facebook">
+               <img src="images/insta.svg" alt="logo instagramme">
+               <img src="images/youtube.png" alt="logo youtube">
+           </div>
+       </div>
+
+       <div class="liens">
+           <h2>Voir plus</h2>
+           <a href="#">A propos</a>
+           <a href="#">Notre histoire</a>
+           <a href="#">Condition d'utilisation</a>
+           <a href="#"> Politique de confidentialité</a>
+           <a href="#">FAQ</a>
+       </div>
+       <div class="coordonnees">
+           <h2>Coordonnées</h2>
+           <ul>
+               <li>Cité keur Goor Gi</li>
+               <li>Dakar, Sicap, Liberté 2</li>
+               <li>Senegal</li>
+           </ul> 
+           <ul>
+               <li>Simplon@email.com</li>
+               <li>help@simplon.com</li>
+               <li>(221) 77 456 78 90</li>
+               <li>(221) 77 654 32 10</li>
+           </ul>
+       </div>
+       <div>
+           <h2>Notre Newsletter</h2>
+           <p>Souscrivez vous à notre <br>
+                newsletter pour ne manquer <br>
+                 aucune de nos activités</p>
+           <form action="#" class="form-group">
+               <input type="email" name="email" id="email" placeholder="Email" required>
+               <input type="submit" value="Joindre" />
+           </form>
+       </div>
+   </section>  
+
+        <div class="footer-bottom">
+           
+                <p>&copy; 2021 Simplon. All rights reserved.</p>
+                <p class="right">Made with <span class="heart">&hearts;</span> by SimplonP4</p>
+            
+            
+        </div>
 
 </body>
 </html>
