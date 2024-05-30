@@ -1,5 +1,5 @@
 
-# Cabinet Dentaire Dentics
+# Site web de Simplon Senegale
 
 Ce projet conciste à realiser un site web de l'application  Simplon Senegal, en utilisant HTML et CSS pour repondre au besion des 
 utilisateurs, conçu pour offrir aux patients une expérience conviviale.L'objectif est de reproduire la maquette de façon identitique.
@@ -43,4 +43,4 @@ Si vous souhaitez contribuer à l'amélioration du site, vous pouvez :
 2. Apporter vos modifications (ajouts de contenu, améliorations de design, corrections de bugs).
 3. Soumettre une pull request pour que vos modifications soient examinées et intégrées au site principal.
 
-Nous apprécions toute contribution constructive pour rendre le site encore meilleur, merci ... !
+Nous apprécions toute contribution constructive pour rendre le site encore meilleur, Merci ... !
